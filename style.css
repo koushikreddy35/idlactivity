@@ -1,0 +1,169 @@
+<style>  
+    .body {
+        background: url('https://www.mwallpapers.com/photos/celebrities/ms-dhoni/ms-dhonihd-wallpapers-desktop-background-android-iphone-1080p-4k-n1vnd.jpeg?v=1597495520');
+        background-repeat: no-repeat;
+        background-size: 1500px 2500px;
+    }
+    html {
+    scroll-behavior: smooth;
+    background-color: #23459d;
+    }
+    .fixed-header {
+        width:100%;
+        position:fixed;
+        background: rgb(243, 195, 39);
+        padding:10px 10px 10px;
+        top:0;
+        z-index: 99;
+       /* scroll-margin-top: 1em;*/
+    }
+    nav a
+    {
+        color: #2a2ab8;
+        text-decoration: none;
+        padding:7px 25px;
+       
+    }
+    .squad
+    {
+        padding-top:100px;
+        background-color: /*rgba(33, 33, 207, 0.815);*/ #23459d;
+    }
+    
+    
+    /* Change color on hover */
+    .header a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .header h2
+    {
+        padding-top: 100px;
+    }
+    .header p
+    {
+        padding-top: 100px;
+    }
+    .header figcaption span
+    {
+    
+        
+    }
+    * {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  text-align: center;
+  padding: 50px;
+}
+.column img
+{
+   
+    transition:0.25s all ease-in-out;
+}
+.column:hover img
+{
+    transform:scale(1.2);
+}
+/*.specific
+{
+    background:url('https://ak.picdn.net/shutterstock/videos/1024013435/thumb/1.jpg');
+    background-repeat: no-repeat;
+    height:500%
+    width:500%;
+}*/
+.home
+{
+    padding-top:10px;
+}
+.column d
+{
+    width: 200px;
+    height: 250px;
+    background-color: yellow;
+}
+.watch table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.watch table tr th,.points table tr th
+{
+    text-align: center;
+    color:white;
+    background-color: #23459d;
+}
+.watch table td, th {
+  border: 1px solid #4060f0;
+  text-align: left;
+  padding: 8px;
+}
+.watch table tr:nth-child(even) {
+  background-color: #e8ecaa;
+}
+.watch table tr:nth-child(odd) {
+  background-color: #f1f1eb;
+}
+.points table tr td
+{
+    vertical-align: middle;
+}
+tr td img
+{
+    vertical-align: middle;
+}
+.points
+{
+    background-color: #23459d;
+    padding-bottom: 50px;
+    
+}
+.points table tr:nth-child(even) {
+  background-color: #e8ecaa;
+}
+.points table tr:nth-child(odd) {
+  background-color: #f1f1eb;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+</style>
